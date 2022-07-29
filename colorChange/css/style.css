@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    width: 900px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+h1, #btn {
+    position: relative;
+    top: 30%;
+}
+
+#btn{
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    h1{
+        width: 590px;
+        margin: 0 auto;
+        padding: 15px 40px;
+        line-height: 45px;
+    }
+}
